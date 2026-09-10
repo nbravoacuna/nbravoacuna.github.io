@@ -37,6 +37,12 @@ a {
   padding: 8px;
 }
 
+#footer {
+  position: relative;
+  width: 768px;
+  margin: 8px auto;
+}
+
 #title-column,
 #degree-column {
   flex: 1;
@@ -81,7 +87,7 @@ details[open] .chevron {
   padding-top: 0.5rem;
 }
 
-.gallery {
+#gallery {
   overflow: hidden;
   width: 512px;
   margin: 8px auto;
@@ -90,7 +96,7 @@ details[open] .chevron {
   mask: linear-gradient(90deg, transparent, #fff7ed 10%, #fff7ed 90%, transparent);
 }
 
-.gallery-scroller {
+.track {
   padding-block: 1rem;
   display: flex;
   gap: 1rem;
@@ -123,10 +129,6 @@ details[open] .chevron {
 
   #header,
   #body {
-    margin-left: 192px;
-  }
-
-  .gallery {
     margin-left: 192px;
   }
 }

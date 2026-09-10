@@ -165,7 +165,7 @@ fetch("json/posters.json")
   });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const scroller = document.querySelector('.gallery-scroller');
+  const scroller = document.querySelector('.track');
   const items = document.querySelectorAll('.gallery-item');
 
   items.forEach(item => {
