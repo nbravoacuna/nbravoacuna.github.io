@@ -79,12 +79,19 @@ a {
   transform: rotate(45deg);
 }
 
-details[open] .chevron {
-  transform: rotate(-45deg);
+details::details-content {
+  opacity: 0;
+  transition:
+    opacity 250ms ease,
+    content-visibility 250ms allow-discrete;
 }
 
-.click-details {
-  padding-top: 0.5rem;
+details[open]::details-content {
+  opacity: 1;
+}
+
+details[open] .chevron {
+  transform: rotate(-45deg);
 }
 
 #gallery {
