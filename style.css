@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 #sidebar {
   position: fixed;
   top: 0;
