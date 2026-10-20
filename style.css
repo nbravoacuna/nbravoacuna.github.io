@@ -180,8 +180,7 @@ details[open] .chevron {
 
 .papers-block__authors,
 .posters-block__authors {
-  font-size: smaller;
-  text-transform: uppercase;
+  font-style: italic;
   margin: 0 0 0.5em;
 }
 
