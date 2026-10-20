@@ -173,7 +173,8 @@ details[open] .chevron {
 .outreach-block__subtitle,
 .papers-block__subtitle,
 .posters-block__subtitle {
-  font-variant: small-caps;
+  font-size: smaller;
+  text-transform: uppercase;
   margin: 0 0 0.5em;
 }
 
