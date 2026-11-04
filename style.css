@@ -62,9 +62,9 @@ a:hover {
 }
 
 .info-body {
-  background-color: #100c080a;
+  background-color: #f53e3e05;
   border-radius: 8px;
-  border: 1px solid #100c080a;
+  border: 2px solid #f53e3e05;
 }
 
 .click-title {
